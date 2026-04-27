@@ -1,0 +1,78 @@
+:root {
+  --octo-bg: #f5f7fb;
+  --octo-card: #ffffff;
+  --octo-text: #0f172a;
+  --octo-muted: #5b6b82;
+  --octo-primary: #0b5ed7;
+}
+
+body {
+  background: radial-gradient(circle at 0% 0%, #edf4ff 0%, var(--octo-bg) 45%, #f8fafc 100%);
+  color: var(--octo-text);
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.octofit-navbar {
+  background: linear-gradient(90deg, #0b5ed7 0%, #0a58ca 45%, #084298 100%);
+}
+
+.octofit-brand {
+  letter-spacing: 0.02em;
+}
+
+.octofit-nav-link {
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.85) !important;
+  padding: 0.4rem 0.9rem !important;
+  transition: all 0.2s ease;
+}
+
+.octofit-nav-link:hover,
+.octofit-nav-link.active {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: #ffffff !important;
+}
+
+.content-shell {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.data-panel {
+  border: 0;
+  border-radius: 1rem;
+  background-color: var(--octo-card);
+  box-shadow: 0 14px 36px rgba(15, 23, 42, 0.08);
+}
+
+.section-subtitle {
+  color: var(--octo-muted);
+}
+
+.table-wrap {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid #e9eef7;
+}
+
+.table thead th {
+  background-color: #f4f7fc;
+  border-bottom: 1px solid #e1e8f5;
+  color: #334155;
+  font-weight: 600;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.endpoint-link {
+  word-break: break-all;
+}
+
+.app-footer {
+  color: var(--octo-muted);
+}
